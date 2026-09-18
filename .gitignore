@@ -1,0 +1,37 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Prisma
+prisma/migrations/dev.db
+*.db
+
+# Agent skills (residuais do Prisma CLI)
+.claude/
+.windsurf/
+.agents/
+skills-lock.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Cache/temporários
+.cache/
+*.tsbuildinfo
