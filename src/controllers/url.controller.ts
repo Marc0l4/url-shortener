@@ -1,7 +1,7 @@
 import type { Request, Response, NextFunction } from "express";
 import { urlService } from "../services/url.service";
 import { shortenUrlSchema } from "../types";
-import { env } from "..config/env";
+import { env } from "../config/env";
 
 export class UrlController {
   async shorten(req: Request, res: Response, next: NextFunction) {

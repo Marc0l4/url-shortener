@@ -62,7 +62,7 @@ export class UrlService {
             throw new Error("URL_NOT_FOUND");
         }
 
-        if (url.isExpiredAt && url.isExpiredAt < new Date()) {
+        if (url.expiresAt && url.expiresAt < new Date()) {
             throw new Error("URL_EXPIRED");
         }
         
