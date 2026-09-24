@@ -1,10 +1,7 @@
 # 🔗 URL Shortener
 
 API REST para encurtamento de URLs, construída em Node.js com TypeScript, pensada para produção: validação de dados, rate limiting, tratamento de erros centralizado e pronta para deploy com Docker.
-
-**🌐 Demo ao vivo:** [em breve]
-
-[![Uptime Status](https://img.shields.io/uptimerobot/status/SEU_ID_AQUI?label=status)](https://uptimerobot.com)
+**🌐 Demo ao vivo:** [https://url-shortener-0dhz.onrender.com](https://url-shortener-0dhz.onrender.com)
 
 ## ✨ Funcionalidades
 
@@ -142,8 +139,9 @@ src/
 
 ## ⚡ Disponibilidade
 
-O deploy gratuito no Render "dorme" após 15 minutos de inatividade. Para manter o serviço sempre ativo e evitar cold starts para quem acessa, um monitor externo ([UptimeRobot](https://uptimerobot.com)) faz ping na rota `/health` a cada 5 minutos.
+O deploy gratuito no Render "dorme" após 15 minutos de inatividade. Para manter o serviço sempre ativo, um monitor externo (UptimeRobot) faz ping na rota `/health` a cada 5 minutos.
 
+**📊 Status em tempo real:** [stats.uptimerobot.com/M1397mOk0g](https://stats.uptimerobot.com/M1397mOk0g)
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.
